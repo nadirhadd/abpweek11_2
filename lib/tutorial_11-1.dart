@@ -8,7 +8,7 @@ class Tutorial11_1Page extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tutorial 11-1'),
-        automaticallyImplyLeading: false, // Remove the default back arrow
+        automaticallyImplyLeading: false,
       ),
       body: PageView(
         children: <Widget>[
@@ -24,7 +24,7 @@ class Tutorial11_1Page extends StatelessWidget {
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.pop(context); // Navigate back to the home page
+                    Navigator.pop(context);
                   },
                   child: const Text('Go to Home page'),
                 ),
